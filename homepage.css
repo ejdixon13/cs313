@@ -1,0 +1,18 @@
+.shaded
+{
+	background-color:#cccccc;
+	font-style:bold;
+}
+#navImages { margin: -2px }
+img:hover { opacity: 0.6; }
+/*a:hover { background-color: #336699; }*/
+#topNav { text-align: center; margin-right: 0px; min-width: 900px }
+.center {text-align: center;}
+body {background-image: url(images/paint_bg.png)}
+#homeText {
+	font-size: 30px;
+	font-family: fantasy;
+	text-align: center;
+	text-shadow:5px 5px 10px black;
+	color: yellow;
+	}
