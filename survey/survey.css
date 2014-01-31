@@ -1,0 +1,77 @@
+.center{text-align: center;
+        font-family: fantasy;}
+#stuff {
+    font-family: fantasy;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+    color: #F38630;
+    font-weight: bold;
+}
+#stuff1 {
+    font-family: fantasy;
+    position: relative;
+    bottom: 200px;
+    right: 200px;
+    color: #585858;
+    font-weight: bold;
+}
+#stuff2 {
+    font-family: fantasy;
+    position: relative;
+    bottom: 200px;
+    right: 200px;
+    color: #69D2E7;
+    display: inline;
+    font-weight: bold;
+}
+#stuff3 {
+    font-family: fantasy;
+    position: relative;
+    bottom: 240px;
+    left: 200px;
+    color: #2EFE2E;
+    display: inline;
+    font-weight: bold;
+}
+.subHead{
+    font-family: cursive;
+    font-size: 20px;
+    font-style: oblique;
+}
+p:first-child
+{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.surveyHead {
+    text-align: center;
+    font-family: fantasy;
+    font-size: large;
+    color: #69D2E7;
+    min-width: 1250px;
+}
+.form {
+    font-family: fantasy;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-width: 850px;
+    border: groove;
+    border-width: 5px;
+    background-image:url('http://api.thumbr.it/whitenoise-361x370.png?background=e4edf0ff&noise=626262&density=46&opacity=20;');
+}
+.border {
+    border: groove;
+    border-width: 5px;
+    margin-left: 250px;
+    margin-right: 250px;   
+}
+table{
+    	display: block;
+	float: left;
+	width: 390px;
+	margin: 10px;
+}
+input{margin-bottom: 20px; margin-top: 15px;}
+

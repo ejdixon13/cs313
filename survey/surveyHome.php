@@ -1,9 +1,15 @@
 <?php
-header("Location: http://ec2-54-209-114-1.compute-1.amazonaws.com/survey/survey.php");
-die();
+session_start();
+
+if (isset($_SESSION['redirectUrl']))
+{
+    //unset($_SESSION['redirectUrl']);
+    $redirectUrl = $_SESSION['redirectUrl'];
+    header("Location: $redirectUrl");
+    die();
+}
 ?>
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Dr. Dudley's New Patient</title>
